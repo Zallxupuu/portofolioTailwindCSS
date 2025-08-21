@@ -98,7 +98,7 @@
     "yaml": "^2.8.1"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
+    "build": "npx tailwindcss -i ./src/input.css -o ./css/style.css --watch"
   },
   "keywords": [],
   "license": "ISC",
