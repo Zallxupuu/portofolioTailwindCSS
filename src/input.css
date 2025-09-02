@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.laravel:hover {
+    box-shadow: 0px 0px 15px rgb(249 115 22);
+}
+.javascript:hover {
+    box-shadow: 0px 0px 15px rgb(234 179 8);
+}
+.php:hover {
+    box-shadow: 0px 0px 15px rgb(167 139 250);
+}
+.tailwindcss:hover {
+    box-shadow: 0px 0px 15px rgb(14 165 233);
+}
