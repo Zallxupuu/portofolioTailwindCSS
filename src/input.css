@@ -15,10 +15,10 @@
     box-shadow: 0px 0px 15px rgb(14 165 233);
 }
 
-.closeDesktop{
+.closeResponsive{
     height: 0px;
 }
-.openDesktop{
+.openResponsive{
     height: 200px; 
     animation: openSlides 2s;
 }
