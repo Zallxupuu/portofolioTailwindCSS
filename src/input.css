@@ -15,15 +15,3 @@
     box-shadow: 0px 0px 15px rgb(14 165 233);
 }
 
-.closeResponsive{
-    height: 0px;
-}
-.openResponsive{
-    height: 200px; 
-    animation: openSlides 2s;
-}
-
-@keyframes openSlides{
-    from{height:0px}
-    to{height:200px}
-}
