@@ -20,10 +20,10 @@
 }
 .openDesktop{
     height: 200px; 
-    animation: openSlide 2s;
+    animation: openSlides 2s;
 }
 
-@keyframes openSlide{
+@keyframes openSlides{
     from{height:0px}
     to{height:200px}
 }
