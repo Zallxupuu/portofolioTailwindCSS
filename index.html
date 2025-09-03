@@ -18,9 +18,9 @@
         </div>
         <div class="hidden sm:block">
             <ul class="flex text-lg">
-                <li class="px-2 hover:text-slate-500 transition ease-in-out closeDesktop" id="menu"><a href="">Home</a></li>
-                <li class="px-2 hover:text-slate-500 transition ease-in-out closeDesktop" id="menu"><a href="">Project</a></li>
-                <li class="px-2 hover:text-slate-500 transition ease-in-out closeDesktop" id="menu"><a href="">Skills</a></li>
+                <li class="px-2 hover:text-slate-500 transition ease-in-out "><a href="">Home</a></li>
+                <li class="px-2 hover:text-slate-500 transition ease-in-out "><a href="">Project</a></li>
+                <li class="px-2 hover:text-slate-500 transition ease-in-out "><a href="">Skills</a></li>
             </ul>
         </div>
         
@@ -28,13 +28,13 @@
     <!-- Responsive navbar -->
     <div class="w-full text-center hidden sm:hidden fixed top-12" id="responsive">
         <ul class="bg-slate-600 text-white font-bold absolute w-full">
-            <li class="py-2 hover:bg-slate-400 border-b-2 border-slate-400" id="menu-responsive">
+            <li class="py-2 hover:bg-slate-400 border-b-2 border-slate-400 closeResponsive" id="menu-responsive">
                 <a href="">Home</a>
             </li>
-            <li class="py-2 hover:bg-slate-400 border-b-2 border-slate-400" id="menu-responsive">
+            <li class="py-2 hover:bg-slate-400 border-b-2 border-slate-400 closeResponsive" id="menu-responsive">
                 <a href="">project</a>
             </li>
-            <li class="py-2 hover:bg-slate-400 border-b-2 border-slate-400" id="menu-responsive">
+            <li class="py-2 hover:bg-slate-400 border-b-2 border-slate-400 closeResponsive" id="menu-responsive">
                 <a href="">Skills</a>
             </li>
         </ul>
@@ -127,11 +127,10 @@
     responsive.classList.toggle('hidden');
     responsive.classList.toggle('block')
 
-        const menuDesktop = document.querySelector('#menu')
             const menuResponsive = document.querySelector('#menu-responsive')
 
-            menuDesktop.classList.toggle('closeDesktop')
-            menuDekstop.classList.toggle('openDesktop')
+            menuResponsive.classList.toggle('closeResponsive')
+            menuResponsive.classList.toggle('openResponsive')
             
         })
 
