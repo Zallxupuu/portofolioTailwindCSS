@@ -14,3 +14,16 @@
 .tailwindcss:hover {
     box-shadow: 0px 0px 15px rgb(14 165 233);
 }
+
+.closeDesktop{
+    height: 0px;
+}
+.openDesktop{
+    height: 200px; 
+    animation: openSlide 2s;
+}
+
+@keyframes openSlide{
+    from{height:0px}
+    to{height:200px}
+}
